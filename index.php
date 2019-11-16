@@ -24,8 +24,8 @@
 			box-shadow: none;
 			border: solid 2px;
 			border-color: #000000;
-			padding-left: 11.5px;
-			padding-right: 11.5px;
+			padding-left: 12.5px;
+			padding-right: 12.5px;
 			padding-top: 0px;
 			padding-bottom: 5px;
 			border-radius: 120px;
@@ -37,7 +37,7 @@
 		#open:active {
 			background-color: #000000;
 			color: #ffffff;
-			transform: rotate(150deg);
+			transform: rotate(100deg);
 		}
 		header {
 			position: absolute;
