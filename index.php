@@ -31,6 +31,16 @@ window.addEventListener('beforeinstallprompt', (e) => {
       deferredPrompt = null;
     });
 });
+		window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 76 and later from showing the mini-infobar
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  showInstallPromotion();
+});
+		window.addEventListener('appinstalled', (evt) => {
+  console.log('a2hs installed');
+});
 	</script>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/package.json">
