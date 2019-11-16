@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="manifest" href="/package.json">
+    <link rel="manifest" href="/package.json">
     <style type="text/css">
 
 		#footer {
@@ -25,8 +25,8 @@
 			box-shadow: none;
 			border: solid 2px;
 			border-color: #000000;
-			padding-left: 11.5px;
-			padding-right: 11.5px;
+			padding-left: 13px;
+			padding-right: 13px;
 			padding-top: 0px;
 			padding-bottom: 5px;
 			border-radius: 120px;
@@ -104,6 +104,12 @@
 		input, button, textarea, select, a {
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		}
+
+		.font {
+			font-family: sans-serif;
+			font-size: 27px;
+		}
+
 	</style>
     <title>Mobile</title>
 </head>
@@ -112,11 +118,11 @@
     <div id="closediv">
 	<span>
 		<ul id="closeul">
-			<li><a href="">Home</a></li>
-			<li><a href="">Basketball Games</a></li>
-			<li><a href="">Football Games</a></li>
-			<li><a href="">Baseball Games</a></li>
-			<li><button id="close" onclick="close2()">x</button></li>
+			<li class="font"><a href="">Home</a></li>
+			<li class="font"><a href="">Basketball Games</a></li>
+			<li class="font"><a href="">Football Games</a></li>
+			<li class="font"><a href="">Baseball Games</a></li>
+			<li class="font"><button id="close" onclick="close2()">x</button></li>
 		</ul>
 	</span>
     </div>
