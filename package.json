@@ -15,8 +15,8 @@
     }
   ],
   "start_url": "index.php",
-  "background_color": "#3367D6",
+  "background_color": "#6AC8F5",
   "display": "standalone",
   "scope": "/games/",
-  "theme_color": "#3367D6"
+  "theme_color": "#6AC8F5"
 }
