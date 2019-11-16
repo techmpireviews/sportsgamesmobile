@@ -14,6 +14,7 @@
       "sizes": "512x512"
     }
   ],
+  "orientation": "portrait",
   "start_url": "index.php",
   "background_color": "#ffffff",
   "display": "standalone",
