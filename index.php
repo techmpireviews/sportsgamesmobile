@@ -47,7 +47,7 @@
 			left: 0px;
 			width: 100%;
 			height: 100%;
-			-webkit-clip-path: circle(30px at right 46px top 46px);
+			-webkit-clip-path: circle(27px at right 46px top 46px);
 			transition: 0.5s;
 			z-index: -1;
 		}
