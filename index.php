@@ -137,13 +137,13 @@
 </footer>
 <script type="text/javascript">
 		function open1() {
-			document.getElementById("header").style.clipPath = "circle(100%)";
+			document.getElementById("header").style.webkitclipPath = "circle(100%)";
 			document.getElementById("footer").style.zIndex = "-20";
 			document.getElementById("footer").style.visibility = "hidden";
 		}
 
 		function close2() {
-			document.getElementById("header").style.clipPath = "circle(30px at right 46px top 46px)";
+			document.getElementById("header").style.webkitclipPath = "circle(30px at right 46px top 46px)";
 			document.getElementById("footer").style.zIndex = "-1";
 			document.getElementById("footer").style.visibility = "visible";
 		}
